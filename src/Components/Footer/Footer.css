@@ -1,0 +1,216 @@
+/* Footer container styles */
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  /* Individual footer column styles */
+  .footer-column {
+    flex: 1;
+    margin: 10px; /* Add some spacing between columns */
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .social-icons{
+    margin-top: 1.5rem;
+  }
+  
+  .footer-column p {
+    font-size: 1rem;
+  }
+  .logo-footer
+  {
+    align-items: flex-end;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+  }
+  .social-icons a{
+    margin: 0 0.8rem 0 0;
+    color: rgb(167, 167, 233)
+  }
+  .payment-gateway-icon{
+    margin-top: 1.5rem;
+  }
+  .payment-gateway-icon span{
+    margin-right: 15px;
+  }
+  .rupess-select-box select:focus,.rupess-select-box select:active{
+    border: 1px solid #FE2B54;
+  }
+  .rupess-select-box select{
+    display: flex;
+    color: #fff;
+    margin-top: 1.5rem;
+    min-height: 40px;
+    padding: 6px 30px 6px 8px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    line-height: 40px;
+    background: transparent;
+    border: 1px solid #FE2B54;
+    border-radius: 0;
+  }
+  .footer-column p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  .footer-column h4{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    text-transform: uppercase;
+  }
+  .footer-column .heading a{
+    display: block;
+    color: #FFF;
+    font-size: 13px;
+    transition: all .18s linear;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 12px;
+    text-decoration: none;
+  }
+  .footer-column .heading a:hover,.footer-column .heading a:active{
+    color: #FE2B54;    
+  }
+  .footer-column button{
+    display: flex;
+    padding: 13px 50.88px 13px 46px;
+    align-items: flex-start;
+    border: 1px solid #FE2B54;
+    color: #FE2B54;
+    background: transparent;
+    transition: all .18s linear;
+  }
+  .footer-column button:hover,.footer-column button:active{
+    background: #FE2B54;
+    color: #fff;
+  }
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 2rem;
+    border-top: 1px solid #fff;
+    background: #000;
+    color: #FFF;
+  }
+  .copyright p,.copyright ul li a{
+    color: #FFF !important;
+    font-size: 10px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 240% */
+    letter-spacing: 1px;
+  }
+  .copyright ul{
+    padding: 0 0 0 1rem;
+    margin: 0;
+    display: flex;
+  }
+  .copyright ul li{
+    margin: 0 1rem;
+  }
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .footer-column {
+      flex: 100%; /* Make columns take up 100% width on smaller screens */
+      text-align: center;
+      margin: 10px 0; /* Adjust spacing between columns for smaller screens */
+    }
+    
+    .social-media-column {
+      flex: 100%; /* Make the social media column take up 100% width on smaller screens */
+      margin-bottom: 20px; /* Add more spacing below the social media icons */
+    }
+  }
+  
+/* Fotter_new_ppart_css */
+
+.new-section {
+  display: flex;
+  align-items: center;
+  background: #FE2B54;
+  flex-direction: row;
+  padding: 2rem 2rem 0;
+}
+
+.left-side {
+  width: 60%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+}
+.left-side .image-container{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.left-side .image-container .left-image-1{
+  position: absolute;
+  top: 10%;
+  left: 100%;
+}
+.left-side .image-container .left-image-3{
+  position: absolute;
+  top: 18%;
+  left: 70%;
+  width: 230px;
+}
+.right-side {
+  color: #fff;
+  width: 40%;
+}
+.right-heading-1 {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.right-heading-2 {
+  color: #FFF;
+  font-size: 42px;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.right-button {
+  background-color: transparent;
+  padding: 16px 60px;
+  border: none;
+  border: 3px solid #FFF;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: .18s all ease-in-out;
+}
+
+.right-button:hover {
+  border: 3px solid #000;
+  color: #000;
+}

@@ -1,0 +1,236 @@
+/* Banner.css */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background: #FE2B54;
+  padding: 2rem 0;
+}
+.banner .text .Customize {
+  font-size: 104px;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: -webkit-center;
+  margin-top: 2rem !important;
+  line-height: normal;
+  margin: 0;
+}
+.banner-text {
+  font-size: 64px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text {
+  flex: 1;
+  padding: 2rem;
+}
+.describe {
+  padding: 1rem 0px 40px 0;
+  color:#fff;
+}
+.describe p{
+color: #FFF;
+font-family: Arial;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;  
+}
+.image {
+  flex: 1;
+  text-align: center; /* If you want to center the image horizontally */
+  align-self: center; /* If you want to center the image vertically */
+}
+
+.discover-button {
+  background-color: #000;
+  display: inline-flex;
+  padding: 13px 47.04px 13px 47.24px;
+  justify-content: center;
+  align-items: flex-start;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.homepage {
+  padding: 2rem;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0;
+}
+.top-bar h3{
+  color: #050B23;
+  font-size: 24px;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid #050B23;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+.product-grid {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.product-card {
+width: 25%;
+padding: 12px;
+text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+.product-image-container img {
+  border: none;
+  padding: 1rem;
+}
+.product-image-container{
+background: #EFEFEF;
+position: relative;
+}
+.product-image-container svg{
+position: absolute;
+top: 10px;
+right: 10px;
+color: #B7B7B7;
+}
+.product-details {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.favorite {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.product-description {
+  font-size: 16px;
+}
+
+.color-choice {
+  margin-top: 10px;
+}
+
+.color-circle {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0 5px;
+}
+
+.product-price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.customize-button,
+.add-to-cart-button {
+  width: 116px;
+  height: 34px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.product-card .star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-card .star-rating p{
+  color: #FE2B54;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.8px;
+  letter-spacing: 0.24px;
+}
+.product-card .star-rating svg{
+  height: 12px;
+  color: #1C1C1C;
+  margin-left: 0.14rem;
+}
+.add-to-cart-button {
+  background-color: #000;
+  border: 1px solid #000;
+}
+.customize-button{
+  border: 1px solid #FE2B54;
+  color: #FE2B54;
+}
+.customize-button:hover,
+.add-to-cart-button:hover {
+  background-color: #FE2B54;
+  color: #fff !important;
+  transition: .18s all linear;
+  border: 1px solid #FE2B54;
+}
+.show-more-button{
+  display: inline-flex;
+  padding: 11.4px 30.515px 11.4px 30.715px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #FE2B54;
+  background: #FE2B54;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.8px;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+}
+.product-description{
+  color: #5C5C5C;
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.8px;
+  letter-spacing: 0.24px;
+}
