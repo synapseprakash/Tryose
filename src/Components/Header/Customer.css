@@ -1,0 +1,29 @@
+.free-shipping{
+    background-color: #FE2B54;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.free-shipping .four-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.free-shipping .four-section p{
+    color: #FFF;
+    text-align: center;
+    font-size: 12.4px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24.48px;
+    letter-spacing: 0.288px;
+    margin-bottom: 5px;
+}
+.free-shipping .four-section span{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.8px;
+    letter-spacing: 0.24px;
+}

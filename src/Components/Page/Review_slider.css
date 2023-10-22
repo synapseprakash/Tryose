@@ -1,0 +1,54 @@
+.upper-text{
+	padding: 2rem;
+}
+.upper-text p{
+	color: #FE2B54;
+	text-align: center;
+	margin: 0;
+	font-size: 12.4px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24.48px; /* 197.419% */
+	letter-spacing: 0.288px;
+}
+.upper-text h4{
+	color: #5C5C5C;
+	text-align: center;
+	margin: 0;
+	font-size: 29.6px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 47px; /* 158.784% */
+	letter-spacing: 0.672px;
+}
+.review-slider{
+	padding-bottom: 2rem;
+}
+.review-slider .carousel .slide .legend{
+	position: static;
+	background: transparent;
+	width: 100%;
+	margin-left: 0 !important;
+	margin: 0;
+	opacity: 1;
+	color: #5C5C5C;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26.4px;
+	letter-spacing: 0.24px;
+}
+.review-slider .carousel .control-dots{
+	bottom: -100%;
+}
+.review-slider .carousel.carousel-slider{
+	overflow: visible;
+}
+.review-slider .carousel .control-dots .dot{
+	box-shadow: none !important;
+	background: #5C5C5C;
+}
+.review-slider .carousel-status,.review-slider .carousel.carousel-slider .control-arrow{
+	display: none;
+}
