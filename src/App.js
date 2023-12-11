@@ -6,6 +6,7 @@ import ShopNowSection from './Components/Header/Banner_2';
 import NewSectionfooter from './Components/Footer/Footer_newpart';
 import Customer from './Components/Header/Customer';
 import Product_home from './Components/Page/Product_home';
+import Product_detail from './Components/Page/Product_detail';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
       <ShopNowSection />
       <Customer />
       <Product_home />
+      <Product_detail />
       <NewSectionfooter />
       <Footer />
     </Router>
