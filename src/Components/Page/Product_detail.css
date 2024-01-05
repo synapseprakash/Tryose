@@ -199,3 +199,61 @@
 .detail-product-grid .product-card{
 	flex: 0 0 31.33%;
 }
+
+/* Cart Page CSS */
+.list-style-none{
+	list-style-type: none !important;
+}
+.breadcrumb li a{
+	color: #9C9C9C;
+	font-family: Century Gothic;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.8px;
+	letter-spacing: 0.24px;
+	text-decoration: none;
+}
+.pink-text{
+	color: #FE2B54 !important;
+}
+.product-details-cart h2{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+.product-details-cart h4{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30.8px; /* 110% */
+	letter-spacing: 0.24px;
+}
+.product-details-cart p{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.8px; /* 165% */
+	letter-spacing: 0.24px;
+}
+.product-details-cart ul li{
+	color: #6B6B6B;
+	font-family: Century Gothic;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18.15px; /* 165% */
+	letter-spacing: 0.24px;
+}
+.pl-0{
+	padding-left: 0 !important;
+}
+/* End Here */
